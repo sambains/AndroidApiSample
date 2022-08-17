@@ -1,0 +1,56 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:textViewStyle">@style/TextView</item>
+    </style>
+
+    <style name="Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+    <style name="Toolbar.Collapsing" parent="Widget.Design.CollapsingToolbar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="CollapsingToolbarStyle">
+        <item name="contentScrim">@color/colorPrimaryDark</item>
+        <item name="collapsedTitleTextAppearance">@style/CollapsedToolbarTitleTextAppearance</item>
+        <item name="expandedTitleTextAppearance">@style/ExpandedToolbarTitleTextAppearance</item>
+        <item name="expandedTitleMarginEnd">@dimen/app_bar_layout_title_margin_end</item>
+        <item name="expandedTitleMarginStart">@dimen/app_bar_layout_title_margin_start</item>
+    </style>
+
+    <style name="CollapsedToolbarTitleTextAppearance" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ExpandedToolbarTitleTextAppearance" parent="TextAppearance.Design.CollapsingToolbar.Expanded">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextView" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/font_size_default</item>
+    </style>
+
+    <style name="TextView.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextView.Title">
+        <item name="android:textSize">@dimen/font_size_title</item>
+    </style>
+
+    <style name="TextView.Subtitle">
+        <item name="android:textSize">@dimen/font_size_subtitle</item>
+    </style>
+
+</resources>

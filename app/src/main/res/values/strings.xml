@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AndroidApiSample</string>
+
+    <!-- Generic -->
+    <string name="toolbar_navigation_icon">Toolbar back arrow</string>
+
+    <!-- Error messages -->
+    <string name="error_message_default">Oops! Something went wrong. Please try again.</string>
+    <string name="error_message_default_action">Retry</string>
+    <string name="error_message_unknown_host_exception">It looks like there\'s no internet connection. Please check your connection and retry.</string>
+    <string name="error_message_network">Well, this is embarrassing. Something has gone wrong on our end.</string>
+
+    <!-- Accessibility -->
+    <string name="detail_poster_content_description">A poster of the film</string>
+    <string name="detail_backdrop_content_description">A backdrop image of the film</string>
+
+    <!-- Detail -->
+    <string name="runtime">%1$d %2$s %3$d %4$s</string>
+</resources>
