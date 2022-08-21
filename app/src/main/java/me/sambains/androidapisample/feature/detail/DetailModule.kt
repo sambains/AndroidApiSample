@@ -7,7 +7,7 @@ import me.sambains.androidapisample.core.api.TheMovieDbApi
 import me.sambains.androidapisample.core.schedulerproviders.SchedulerProvider
 
 @Module
-class DetailModule internal constructor(private val detailView: DetailContract.DetailView) {
+open class DetailModule internal constructor(private val detailView: DetailContract.DetailView) {
 
     @Provides
     internal fun providesDetailView(): DetailContract.DetailView {
