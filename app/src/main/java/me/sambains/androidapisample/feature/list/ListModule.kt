@@ -7,7 +7,7 @@ import me.sambains.androidapisample.core.api.TheMovieDbApi
 import me.sambains.androidapisample.core.schedulerproviders.SchedulerProvider
 
 @Module
-class ListModule internal constructor(private val listView: ListContract.ListView) {
+open class ListModule internal constructor(private val listView: ListContract.ListView) {
 
     @Provides
     internal fun providesListView(): ListContract.ListView {
